@@ -1,0 +1,432 @@
+/* line 1, ../scss/_reset.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  vertical-align: 0;
+  overflow: auto;
+}
+
+/* line 10, ../scss/_reset.scss */
+body {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  overflow: hidden;
+}
+
+/* line 20, ../scss/_reset.scss */
+html, h1, h2, h3, h4, h5, dl, dt, dd, li, ul, ol, form, div, img, table, td, th, tr {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/*! sanitize.css v3.0.0 | CC0 1.0 Public Domain | github.com/10up/sanitize.css */
+/*
+ * Normalization
+ */
+/* line 33, ../scss/_reset.scss */
+audio:not([controls]) {
+  display: none;
+  /* Chrome 44-, iOS 8+, Safari 9+ */
+}
+
+/* line 37, ../scss/_reset.scss */
+button {
+  overflow: visible;
+  /* Internet Explorer 11- */
+  -webkit-appearance: button;
+  /* iOS 8+ */
+}
+
+/* line 42, ../scss/_reset.scss */
+details {
+  display: block;
+  /* Edge 12+, Firefox 40+, Internet Explorer 11-, Windows Phone 8.1+ */
+}
+
+/* line 46, ../scss/_reset.scss */
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  /* Edge 12+, Internet Explorer 11- */
+  overflow-y: scroll;
+  /* All browsers without overlaying scrollbars */
+  -webkit-text-size-adjust: 100%;
+  /* iOS 8+ */
+}
+
+/* line 52, ../scss/_reset.scss */
+input {
+  -webkit-border-radius: 0;
+}
+
+/* line 56, ../scss/_reset.scss */
+input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  /* iOS 8+ */
+}
+
+/* line 60, ../scss/_reset.scss */
+input[type="number"] {
+  width: auto;
+  /* Firefox 36+ */
+}
+
+/* line 64, ../scss/_reset.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* Chrome 45+, Safari 9+ */
+}
+
+/* line 68, ../scss/_reset.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  /* Chrome 45+, Safari 9+ */
+}
+
+/* line 72, ../scss/_reset.scss */
+main {
+  display: block;
+  /* Android 4.3-, Internet Explorer 11-, Windows Phone 8.1+ */
+}
+
+/* line 76, ../scss/_reset.scss */
+pre {
+  overflow: auto;
+  /* Internet Explorer 11- */
+}
+
+/* line 80, ../scss/_reset.scss */
+progress {
+  display: inline-block;
+  /* Internet Explorer 11-, Windows Phone 8.1+ */
+}
+
+/* line 84, ../scss/_reset.scss */
+small {
+  font-size: 75%;
+  /* All browsers */
+}
+
+/* line 88, ../scss/_reset.scss */
+summary {
+  display: block;
+  /* Firefox 40+, Internet Explorer 11-, Windows Phone 8.1+ */
+}
+
+/* line 92, ../scss/_reset.scss */
+svg:not(:root) {
+  overflow: hidden;
+  /* Internet Explorer 11- */
+}
+
+/* line 96, ../scss/_reset.scss */
+template {
+  display: none;
+  /* Android 4.3-, Internet Explorer 11-, iOS 7-, Safari 7-, Windows Phone 8.1+ */
+}
+
+/* line 100, ../scss/_reset.scss */
+textarea {
+  overflow: auto;
+  /* Edge 12+, Internet Explorer 11- */
+}
+
+/* line 104, ../scss/_reset.scss */
+[hidden] {
+  display: none;
+  /* Internet Explorer 10- */
+}
+
+/*
+ * Universal inheritance
+ */
+/* line 112, ../scss/_reset.scss */
+*,
+:before,
+:after {
+  box-sizing: inherit;
+}
+
+/* line 118, ../scss/_reset.scss */
+* {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* line 123, ../scss/_reset.scss */
+:before,
+:after {
+  text-decoration: inherit;
+  vertical-align: inherit;
+}
+
+/*
+ * Opinionated defaults
+ */
+/* specify the border style and width of all elements */
+/* line 137, ../scss/_reset.scss */
+*,
+:before,
+:after {
+  border-style: solid;
+  border-width: 0;
+}
+
+/* specify the core styles of all elements */
+/* line 146, ../scss/_reset.scss */
+* {
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+/* specify the root styles of the document */
+/* line 154, ../scss/_reset.scss */
+:root {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: default;
+  font: 100%/1.5 sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+/* specify the text decoration of anchors */
+/* line 165, ../scss/_reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* specify the alignment of media elements */
+/* line 171, ../scss/_reset.scss */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/* specify the background color of form elements */
+/* line 182, ../scss/_reset.scss */
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+}
+
+/* specify the inherited color and font of form elements */
+/* line 191, ../scss/_reset.scss */
+button,
+input,
+select,
+textarea {
+  color: inherit;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+/* specify the minimum height of form elements */
+/* line 203, ../scss/_reset.scss */
+button,
+[type="button"],
+[type="date"],
+[type="datetime"],
+[type="datetime-local"],
+[type="email"],
+[type="month"],
+[type="number"],
+[type="password"],
+[type="reset"],
+[type="search"],
+[type="submit"],
+[type="tel"],
+[type="text"],
+[type="time"],
+[type="url"],
+[type="week"],
+select,
+textarea {
+  min-height: 1.5em;
+}
+
+/* specify the font family of code elements */
+/* line 227, ../scss/_reset.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+}
+
+/* specify the list style of nav lists */
+/* line 236, ../scss/_reset.scss */
+nav ol,
+nav ul {
+  list-style: none;
+}
+
+/* specify the standard appearance of selects */
+/* line 243, ../scss/_reset.scss */
+select {
+  -moz-appearance: none;
+  /* Firefox 40+ */
+  -webkit-appearance: none;
+}
+
+/* line 248, ../scss/_reset.scss */
+select::-ms-expand {
+  display: none;
+  /* Edge 12+, Internet Explorer 11- */
+}
+
+/* line 252, ../scss/_reset.scss */
+select::-ms-value {
+  color: currentColor;
+  /* Edge 12+, Internet Explorer 11- */
+}
+
+/* specify the border styling of tables */
+/* line 258, ../scss/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* specify the resizability of textareas */
+/* line 265, ../scss/_reset.scss */
+textarea {
+  resize: vertical;
+}
+
+/* specify the background color, font color, and drop shadow of text selections */
+/* line 271, ../scss/_reset.scss */
+::-moz-selection {
+  background-color: #b3d4fc;
+  /* required when declaring ::selection */
+  color: #4c2b03;
+  text-shadow: none;
+}
+
+/* line 277, ../scss/_reset.scss */
+::selection {
+  background-color: #b3d4fc;
+  /* required when declaring ::selection */
+  color: #4c2b03;
+  text-shadow: none;
+}
+
+/* specify the progress cursor of updating elements */
+/* line 285, ../scss/_reset.scss */
+[aria-busy="true"] {
+  cursor: progress;
+}
+
+/* specify the pointer cursor of trigger elements */
+/* line 291, ../scss/_reset.scss */
+[aria-controls] {
+  cursor: pointer;
+}
+
+/* specify the unstyled cursor of disabled, not-editable, or otherwise inoperable elements */
+/* line 297, ../scss/_reset.scss */
+[aria-disabled] {
+  cursor: default;
+}
+
+/* specify the style of visually hidden yet accessible elements */
+/* line 303, ../scss/_reset.scss */
+[hidden][aria-hidden="false"] {
+  clip: rect(0 0 0 0);
+  display: inherit;
+  position: absolute;
+}
+
+/* line 309, ../scss/_reset.scss */
+[hidden][aria-hidden="false"]:focus {
+  clip: auto;
+}
+
+/*# sourceMappingURL=sanitize.css.map */
+/* line 3, ../scss/test.scss */
+body {
+  background-color: #222;
+}
+
+/* line 7, ../scss/test.scss */
+#scrollxx {
+  margin-top: 400px;
+  margin-bottom: 500px;
+}
+/* line 11, ../scss/test.scss */
+#scrollxx #animation {
+  width: 100%;
+}
+/* line 14, ../scss/test.scss */
+#scrollxx #animation li {
+  width: 49.8%;
+  background-color: #333;
+  float: left;
+  height: 400px;
+  list-style: none;
+  margin-top: 300px;
+  margin-right: 2px;
+}
+
+/* line 29, ../scss/test.scss */
+.fadeInDown {
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+/* line 48, ../scss/test.scss */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  visibility: visible !important;
+}
+
+/* line 54, ../scss/test.scss */
+.fixed {
+  position: fixed;
+  top: 20px;
+}

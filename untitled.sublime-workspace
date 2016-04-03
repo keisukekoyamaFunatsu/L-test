@@ -1,0 +1,410 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"st",
+				"section	Tag"
+			],
+			[
+				"s",
+				"section	Tag"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"he",
+				"max-height"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"di",
+				"div	Tag"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"a",
+				"a	Tag"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 539,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packe",
+		"selected_items":
+		[
+			[
+				"packe",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/aco/Dropbox/_private/project/lpixel/github/Lpixel"
+	],
+	"file_history":
+	[
+		"/Users/aco/Dropbox/_private/project/lpixel/github/Lpixel/index.html",
+		"/Users/aco/Dropbox/_private/project/webtest/animation-test-01/index.html",
+		"/Users/aco/Dropbox/_private/project/lpixel/github/Lpixel/untitled.html",
+		"/Users/aco/Dropbox (A.C.O.)/Ask_doctors/03_design/_assets/css/styles.css",
+		"/Users/aco/Dropbox (A.C.O.)/Ask_doctors/03_design/_assets/css/styles-0324.css",
+		"/Applications/MAMP/htdocs/20160317_works-i_html/surveys/trend/index.html",
+		"/Users/aco/Desktop/mmd-git/sass/top.scss",
+		"/Users/aco/Dropbox/_private/project/webtest/chenge01/index.html",
+		"/Users/aco/Dropbox/_private/project/webtest/flexBox/scss/test.scss",
+		"/Users/aco/Dropbox/_private/project/webtest/flexBox/index.html",
+		"/Users/aco/Dropbox/_private/project/webtest/animation-loop/index.html",
+		"/Users/aco/Dropbox/_private/project/webtest/layout-playground-yahoo/scss/test.scss",
+		"/Users/aco/Dropbox/_private/project/webtest/layout-playground-yahoo/index.html",
+		"/Users/aco/Dropbox/_private/project/webtest/animation-loop/scss/test.scss",
+		"/Users/aco/Desktop/mmd/test-atten02/jp/spirit/design/index.html",
+		"/Users/aco/Desktop/mmd/test-atten02/share/style/design/top.css",
+		"/Users/aco/Desktop/mmd/test-atten02/index.html",
+		"/Users/aco/Desktop/mmd/test-atten/jp/spirit/design/index.html",
+		"/Users/aco/Desktop/mmd/test-atten/share/style/design/top.css",
+		"/Users/aco/Dropbox/_private/project/webtest/circle-animation/scss/style.scss",
+		"/Users/aco/Dropbox/_private/project/webtest/circle-animation/index.html",
+		"/Users/aco/Dropbox/_private/project/webtest/animation-test/index.html",
+		"/Users/aco/Dropbox/_private/project/webtest/animation-test/scss/test.scss",
+		"/Users/aco/Dropbox/_private/project/webtest/animation-test-01/scss/test.scss",
+		"/Users/aco/Desktop/Dropbox - Wikipedia.html",
+		"/Users/aco/Dropbox/_private/project/webtest/layout-playground/scss/test.scss",
+		"/Users/aco/Dropbox/_private/project/webtest/layout-playground/index.html",
+		"/Users/aco/Dropbox/_private/project/webtest/layout-playground/layout-playground.sublime-project",
+		"/Users/aco/Dropbox/_private/project/webtest/sass-test/scss/test.scss",
+		"/Users/aco/Dropbox/_private/project/webtest/sass-test/scss/_color.scss",
+		"/Users/aco/Dropbox/_private/project/webtest/sass-test/index.html",
+		"/Users/aco/Dropbox/_private/project/webtest/scrollAnimation/index.html",
+		"/Users/aco/Dropbox/_private/project/webtest/scrollAnimation/css/scrol.css",
+		"/Users/aco/Dropbox/_private/project/asaka/web/_www/css/styles.css",
+		"/Users/aco/Dropbox/_private/project/webtest/animation-test/scss/_reset.scss",
+		"/Users/aco/Dropbox/_private/project/webtest/animation-test/config.rb",
+		"/Users/aco/Desktop/xx.js",
+		"/Users/aco/Dropbox/_private/project/webtest/sass-sublime/scss/style.scss",
+		"/Users/aco/Dropbox/_private/project/webtest/sass-sublime/scss/_main.scss",
+		"/Users/aco/Dropbox/_private/project/webtest/sass-sublime/css/style.css",
+		"/Users/aco/Dropbox/_private/project/webtest/sass-sublime/config.rb",
+		"/Users/aco/Dropbox/_private/project/webtest/sass-sublime/scss/main.scss",
+		"/Users/aco/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/aco/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/aco/Desktop/mmd/index.html",
+		"/Applications/MAMP/htdocs/mmd/jp/spirit/design/index.html",
+		"/Users/aco/Desktop/test/sass/top.scss",
+		"/Users/aco/Desktop/zzzzTest/sass/detail.scss",
+		"/Users/aco/Desktop/test/config.rb",
+		"/Users/aco/Desktop/testsljla/sass/top.scss",
+		"/Users/aco/Desktop/testsljla/css/top.css",
+		"/Users/aco/Desktop/test/css/top.css",
+		"/Users/aco/Dropbox/test/config.rb"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/surveys/trend/",
+			";\n",
+			"5",
+			";\n",
+			"10",
+			"0",
+			"60px",
+			"46",
+			"50",
+			"を使用すると良いで",
+			";\n",
+			"%;\n",
+			"また様々な折り返しの",
+			"%;\n",
+			"600px",
+			";\n",
+			"{\n",
+			";\n",
+			"%;",
+			";\n",
+			"margin",
+			"{	",
+			"{\n",
+			";\n",
+			"400px",
+			";\n",
+			"{\n",
+			";\n",
+			"}\n",
+			";\n",
+			"20",
+			";\n",
+			"2em",
+			"h2",
+			"padding",
+			"{\n",
+			"%;",
+			" :",
+			"ease",
+			"1px",
+			".item"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 155.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Compass/Compass.sublime-build",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

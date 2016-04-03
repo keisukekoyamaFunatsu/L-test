@@ -1,0 +1,62 @@
+@import "reset";
+
+body{
+  background-color: #222;
+}
+
+#scrollxx{
+  margin-top: 400px;
+  margin-bottom: 500px;
+  
+  #animation{
+  	width: 100%;
+
+    li{
+      width: 49.8%;
+      background-color:#333;
+	  float: left;
+	  height: 400px;
+	  list-style: none;
+	  margin-top: 300px;
+	  margin-right: 2px;
+	}
+
+  }
+
+}
+
+
+.fadeInDown {
+	-webkit-animation-fill-mode:both;
+	-ms-animation-fill-mode:both;
+	animation-fill-mode:both;
+	-webkit-animation-duration:0.5s;
+	-ms-animation-duration:0.5s;
+	animation-duration:0.5s;
+}
+
+@-webkit-keyframes fadeInDown {
+	0% { opacity: 0; -webkit-transform: translateY(100px); -ms-transform: translateY(100px); transform: translateY(100px); }
+	100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+	0% { opacity: 0; -webkit-transform: translateY(100px); -ms-transform: translateY(100px); transform: translateY(100px); }
+	100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+.fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+	visibility: visible !important;
+}
+
+.fixed {
+  position: fixed;
+  top: 20px;
+}
+
+
+
+
+
